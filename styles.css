@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="button-link">Home</a></li>
+          <li><a href="about.html" class="button-link">About</a></li>
+          <li><a href="projects.html" class="button-link">Projects</a></li>
+          <li><a href="contact.html" class="button-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="projects">
+        <h1>Projects</h1>
+        <div>
+          <h2>1. Bus Ticket Booking Website</h2>
+          <p>
+            A full-stack web application that allows users to search and book
+            bus tickets online.
+          </p>
+          <p>Technologies: Node.js, MySQL, HTML, CSS</p>
+        </div>
+        <div>
+          <h2>2. Sales Data Analysis Tool</h2>
+          <p>
+            An analytics dashboard for visualizing sales data and generating
+            reports.
+          </p>
+          <p>Technologies: Python, Pandas, Matplotlib</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 sanjanasl</p>
+    </footer>
+  </body>
+</html>
+<style>
+  /* General Styles */
+  body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9fbe7;
+    padding-bottom: 60px; /* For footer visibility */
+  }
+
+  header {
+    background-color: #33691e;
+    color: #fff;
+    padding: 10px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+
+  header nav ul li {
+    margin: 0 15px;
+  }
+
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  header nav ul li a.button-link {
+    display: inline-block;
+    background-color: #558b2f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  header nav ul li a.button-link:hover {
+    background-color: #8bc34a;
+    transform: scale(1.1); /* Hover effect: Slight enlargement */
+  }
+
+  /* Projects Section Styles */
+  #projects {
+    padding: 50px 20px;
+    background-color: #f9fbe7;
+  }
+
+  #projects h1 {
+    text-align: center;
+    color: #558b2f;
+    margin-bottom: 30px;
+  }
+
+  #projects div {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #dcedc8;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  #projects div h2 {
+    color: #33691e;
+  }
+
+  #projects div p {
+    margin: 10px 0;
+  }
+
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #33691e;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+</style>
