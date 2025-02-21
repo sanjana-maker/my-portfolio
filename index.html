@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <img src="assets/SANpic.jpg" alt="Your Name" id="profile-image" />
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          I'm an MCA final-year student passionate about IT and software
+          development.
+        </p>
+        <a href="assets/resume.pdf" download>Download Resume</a>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Your Name</p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  /* General Styles */
+  body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    color: white;
+    background-color: #d8d0df; /* Dark purple background */
+    margin: 0;
+  }
+
+  header {
+    background-color: #6c2a52; /* Dark purple */
+    padding: 10px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+
+  header nav ul li {
+    margin: 0 15px;
+  }
+
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  header nav ul li a:hover {
+    color: #d1c4e9; /* Light purple hover */
+  }
+
+  /* Hero Section */
+  #hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(
+      to right,
+      #2d2533,
+      #a86ace
+    ); /* Dark purple gradient */
+    color: white;
+  }
+
+  #hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  #hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  #hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  #hero a {
+    display: inline-block;
+    background-color: white;
+    color: #0d0214; /* Dark purple color */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  #hero a:hover {
+    background-color: #f3e5f5; /* Light purple hover effect */
+  }
+
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #6c2a52;
+    color: white;
+  }
+</style>
